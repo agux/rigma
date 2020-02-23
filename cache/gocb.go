@@ -1,16 +1,17 @@
 package cache
 
 import (
-	"gopkg.in/couchbase/gocb.v1"
-	"github.com/carusyte/rima/conf"
-	"time"
-	"math/rand"
-	"strings"
-	"github.com/sirupsen/logrus"
-	"github.com/pkg/errors"
 	"fmt"
 	"log"
 	"math"
+	"math/rand"
+	"strings"
+	"time"
+
+	"github.com/agux/rigma/conf"
+	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
+	"gopkg.in/couchbase/gocb.v1"
 )
 
 var (

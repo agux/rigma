@@ -1,6 +1,6 @@
 package model
 
-import "github.com/carusyte/stock/model"
+import "github.com/agux/pachon/model"
 
 type KdjScoreReq struct {
 	Data                      []*KdjSeries

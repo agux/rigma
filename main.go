@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/chrislusf/gleam/gio"
+	"log"
 	"net"
 	"net/rpc"
-	"log"
-	"github.com/carusyte/rima/rsec"
-	"github.com/carusyte/rima/tes"
 	"os"
+
+	"github.com/agux/rigma/rsec"
+	"github.com/agux/rigma/tes"
+	"github.com/chrislusf/gleam/gio"
 )
 
 func main() {
